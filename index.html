@@ -5,8 +5,258 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PORTEN</title>
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+<link href="https://fonts.cdnfonts.com/css/post-no-bills-jaffna" rel="stylesheet">
+                
+    <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
-    
+    <header class="header">
+        <div class="header__top">
+            <div class="header__contacts">
+                <img class="contacts__phone"
+                     src="./images/icon/eva_phone-outline.png" 
+                     alt="icon phone">
+                <p class="contacts__content">
+                    <a href="tel:+88121234567">8 (812) 123-45-67</a>
+                    <span class="vertical-line"> | </span>
+                    Працюємо 7 днів на тиждень
+                    <span class="vertical-line"> | </span>
+                    9:00 — 18:00
+                </p>
+            </div>
+            <div class="header__auth">
+                <img
+                class="" src="./images/icon/ic_sharp-log-in.png" alt="">
+                <button type="button">Вхід / Реєстрація</button>
+            </div>
+        </div>
+        <div class="header__bottom">
+            <div class="header__logo">
+                <img src="./images/PORTEN.png" alt="Logo PORTEN">
+            </div>
+            <div class="header__manage">
+                <button class="manade__btn">Сподобалось</button>
+                <button class="manade__btn">Особистий кабінет</button>
+                <button class="manade__btn">Налаштування</button>
+                <img class="basket" src="./images/icon/bx_bx-cart.png" alt="basket">
+                <img class="search" src="./images/icon/gridicons_search.png" alt="search">
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="about">
+            <div class="about__block">
+                <!-- <img class="about__logo" src="./images/PORTEN.png" alt="Logo PORTEN"> -->
+                <h1 class="about__logo">PORTEN</h1>
+                <p class="about__city">Івано-Франківськ</p>
+            </div>
+            <p class="about__text">В магазинах Торгівельної мережі Porten ви можете купити годинник у Бахмуті, Вінниці, Дніпрі, Житомирі, Запоріжжі, Івано-Франківську, Києві, Краматорську, Луцьку, Львові, Одесі, Покровську, Полтаві, Рівному, Слов'янську, Сумах, Тернополі, Харкові, Херсоні, Хмельницькому, Черкасах, Чернівцях, Чернігові , а також багатьох інших містах України</p>
+        </section>
+
+        <section class="collections">
+            <div class="collections__season">
+                <div class="title__block">
+                    <h2 class="season__title">СЕЗОН 2021/22</h2>
+                    <div class="title__underline">  </div>
+                </div>
+                
+                <div class="products">
+                    <article class="product">
+                        <img 
+                            src="./images/season/Louis XVI ATHOS.png" 
+                            alt="Louis XVI ATHOS"
+                            class="product__photo"
+                        >
+                        <h3 class="product__title">Louis XVI ATHOS</h3>
+                        <p class="product__price">13 600 грн.  </p>
+                    </article>
+
+                    <article class="product">
+                        <img 
+                            src="./images/season/Carl von Zeyten.png" 
+                            alt="Carl von Zeyten"
+                            class="product__photo"
+                        >
+                        <h3 class="product__title">Carl von Zeyten</h3>
+                        <p class="product__price">16 500 грн.  </p>
+                    </article>
+
+                    <article class="product">
+                        <img 
+                            src="./images/season/JORD AR5905.png" 
+                            alt="JORD AR5905"
+                            class="product__photo"
+                        >
+                        <h3 class="product__title">JORD AR5905</h3>
+                        <p class="product__price">65 000 грн.  </p>
+                    </article>
+                </div>
+            </div>
+            <div class="catalog">
+                <h2 class="catalog__title">Нова колекція</h2>
+                <div class="title__underline">  </div>
+                <button class="catalog__btn">Каталог</button>
+            </div>
+        </section>
+
+        <section class="collections-old">
+            <img class="old-img" src="./images/season/old.png" alt="">
+            <div class="catalog_old">
+                <h2 class="old__title">колекція 2018</h2>
+                <div class="title__underline">  </div>
+                <p class="old__text">Годинники як інструмент визначення часу давно і надійно прижилися в людській реальності. Романтики та прагматики, художники та бізнесмени, чоловіки та жінки, дорослі та діти - всі хочуть знати котра година в потрібний момент. Скільки хвилин пройшло, скільки залишилося, а ще - які саме моделі і якого бренду виблискують на руці у друга, коханої або конкурента. З давніх часів, коли людина здогадався втикнути в землю паличку та іншою поличкою взявся відміряти рівні проміжки часу на піску, не вщухають суперечки - яким повинний бути годинник? Наручним, або настільним, або настінним, або, нарешті, підлоговим? Чому ж кожен діамантик на безеле або шестерінка в механізмі незмінно змушують гордовито випнутися нижню губу володаря аксесуара, а щоки - роздутися?</p>
+                <button class="catalog__btn">переглянути колекцію</button>
+            </div>
+        </section>
+
+        <section class="novelty">
+            <h2 class="novelty__title">Нові надходження</h2>
+            <div class="title__underline">  </div>
+            <div class="novelty__products">
+
+                <article class="product">
+                    <img 
+                        src="./images/novelty/Carl von Zeyten.png" 
+                        alt="Carl von Zeyten"
+                        class="product__photo"
+                    >
+                    <h3 class="product__title">Carl von Zeyten</h3>
+                    <p class="product__price">16 500 грн.  </p>
+                </article>
+
+                <article class="product">
+                    <img 
+                        src="./images/novelty/JORD AR5905.png" 
+                        alt="JORD AR5905"
+                        class="product__photo"
+                    >
+                    <h3 class="product__title">JORD AR5905</h3>
+                    <p class="product__price">65 000 грн.  </p>
+                </article>
+
+                <article class="product">
+                    <img 
+                        src="./images/novelty/Emporio Armani Sportivo.png" 
+                        alt="Emporio Armani Sportivo"
+                        class="product__photo"
+                    >
+                    <h3 class="product__title">Emporio Armani Sportivo</h3>
+                    <p class="product__price">165 000 грн.  </p>
+                </article>
+
+                <article class="product">
+                    <img 
+                        src="./images/novelty/Rolex Oyster Perpetual.png" 
+                        alt="Rolex Oyster Perpetual"
+                        class="product__photo"
+                    >
+                    <h3 class="product__title">Rolex Oyster Perpetual</h3>
+                    <p class="product__price">280 000 грн.  </p>
+                </article>
+
+                <article class="product">
+                    <img 
+                        src="./images/novelty/Louis XVI ATHOS.png" 
+                        alt="Louis XVI ATHOS"
+                        class="product__photo"
+                    >
+                    <h3 class="product__title">Louis XVI ATHOS</h3>
+                    <p class="product__price">65 000 грн.  </p>
+                </article>
+
+                <article class="product">
+                    <img 
+                        src="./images/novelty/U-Boat Italo Fontana.png" 
+                        alt="U-Boat Italo Fontana"
+                        class="product__photo"
+                    >
+                    <h3 class="product__title">U-Boat Italo Fontana</h3>
+                    <p class="product__price">18 700 грн.  </p>
+                </article>
+
+                <article class="product ">
+                    <img 
+                        src="./images/novelty/Gucci Men's G.png" 
+                        alt="Gucci Men's G"
+                        class="product__photo trim"
+                    >
+                    <h3 class="product__title">Gucci Men's G</h3>
+                    <p class="product__price">38 500 грн.  </p>
+                </article>
+
+                <article class="product catalog_all">
+                    <img 
+                        src="./images/novelty/JORD AR5905.png" 
+                        alt="JORD AR5905"
+                        class="product__photo photo__all"
+                    >
+                    <button class="catalog__btn all__btn">ПОКАЗАТИ ВСІ</button>
+                </article>
+                
+            </div>
+        </section>
+
+        <section class="posts">
+            <h2 class="posts__title">Статті та корисна інформація</h2>
+            <div class="title__underline posts__underline">  </div>
+
+            <article class="post">
+                <img src="./images/post/ROGER DUBUIS.png" alt="ROGER DUBUIS">
+                <div class="post__content">
+                    <h3 class="post__title">ROGER DUBUIS. ЧАСТИНА 1</h3>
+                    <p class="post__text">Цей чемпіон «гіперхорології» став синонімом надмірності й завдяки своїй радикальній скелетонізованій архітектурі неодноразово демонструє пристрасть до годинного вуайєризму. У цій серії з чотирьох статей описується нещодавня подорож на мануфактуру, де можна було спостерігати за виготовленням та оздобленням деталей, а також за збіркою та регулюванням годинників компанії.</p>
+                    <div class="read__more">
+                        <button class="catalog__btn">читати</button>
+                        <div>
+                            <a class="post__link" href="#">#ЕКСКЛЮЗИВ</a>
+                            <a class="post__link" href="#">#ПРОБРЕНД</a>
+                        </div>
+                        
+                    </div>
+                </div>
+            </article>
+
+            <article class="post">
+                <img src="./images/post/history.png" alt="history">
+                <div class="post__content">
+                    <h3 class="post__title">ІСТОРІЯ ЛЮКСОВИХ ГОДИННИКІВ. ЧАСТИНА 1</h3>
+                    <p class="post__text">Історія люксових годинників зародилася дуже давно, вона веде відлік із часів перших годинників у світі. Тоді годинник був розкішшю, яку могла собі дозволити лише найвища еліта суспільства. Навіть не всім, хто має титул і великі гроші, могли виготовити цей розкішний аксесуар. Власне, з того часу мало що змінилося.</p>
+                    <div class="read__more">
+                        <button class="catalog__btn">читати</button>
+                        <div>
+                            <a class="post__link" href="#">#ЕКСКЛЮЗИВ</a>
+                            <a class="post__link" href="#">#IСТОРIЯ</a>
+                        </div>
+                        
+                    </div>
+                </div>
+            </article>
+
+            <article class="post">
+                <img src="./images/post/TISSOT.png" alt="TISSOT">
+                <div class="post__content">
+                    <h3 class="post__title">ВЕЛИКИЙ ТА СМІЛИВИЙ TISSOT PRS 516 CHRONOGRAPH</h3>
+                    <p class="post__text">На початку цього року компанія Tissot оновила модель PRS 516 Automatic Chronograph, але не пішла вінтажним шляхом. На противагу колекції Heritage із переконливими рімейками вінтажних моделей, PRS 516 – це сучасний хронограф із зухвалим настроєм, безліччю деталей автоспорту й за чудовою ціною.</p>
+                    <div class="read__more">
+                        <button class="catalog__btn">читати</button>
+                        <div>
+                            <a class="post__link" href="#">#ХРОНОГРАФ</a>
+                            <a class="post__link" href="#">#TISSOT</a>
+                            <a class="post__link" href="#">#ОГЛЯДГОДИННИКIВ</a>
+                        </div>
+                        
+                    </div>
+                </div>
+            </article>
+
+        </section>
+    </main>
+
+    <footer></footer>
 </body>
 </html>
