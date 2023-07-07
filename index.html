@@ -7,11 +7,15 @@
     <title>PORTEN</title>
     <link rel="stylesheet" href="./styles/reset.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
-<link href="https://fonts.cdnfonts.com/css/post-no-bills-jaffna" rel="stylesheet">
-                
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/post-no-bills-jaffna" rel="stylesheet">
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+  />
     <link rel="stylesheet" href="./styles/style.css">
+
 </head>
 <body>
     <header class="header">
@@ -51,14 +55,13 @@
     <main>
         <section class="about">
             <div class="about__block">
-                <!-- <img class="about__logo" src="./images/PORTEN.png" alt="Logo PORTEN"> -->
                 <h1 class="about__logo">PORTEN</h1>
                 <p class="about__city">Івано-Франківськ</p>
             </div>
             <p class="about__text">В магазинах Торгівельної мережі Porten ви можете купити годинник у Бахмуті, Вінниці, Дніпрі, Житомирі, Запоріжжі, Івано-Франківську, Києві, Краматорську, Луцьку, Львові, Одесі, Покровську, Полтаві, Рівному, Слов'янську, Сумах, Тернополі, Харкові, Херсоні, Хмельницькому, Черкасах, Чернівцях, Чернігові , а також багатьох інших містах України</p>
         </section>
 
-        <section class="collections">
+        <section class="collectionss">
             <div class="collections__season">
                 <div class="title__block">
                     <h2 class="season__title">СЕЗОН 2021/22</h2>
@@ -96,16 +99,69 @@
                         <p class="product__price">65 000 грн.  </p>
                     </article>
                 </div>
+
+                <div class="swiper">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                      <!-- Slides -->
+                      <div class="swiper-slide">
+                        <article class="product">
+                            <img 
+                                src="./images/season/Louis XVI ATHOS.png" 
+                                alt="Louis XVI ATHOS"
+                                class="product__photo"
+                            >
+                            <h3 class="product__title">Louis XVI ATHOS</h3>
+                            <p class="product__price">13 600 грн.  </p>
+                        </article>
+                      </div>
+                      <div class="swiper-slide">
+                        <article class="product">
+                            <img 
+                                src="./images/season/Carl von Zeyten.png" 
+                                alt="Carl von Zeyten"
+                                class="product__photo"
+                            >
+                            <h3 class="product__title">Carl von Zeyten</h3>
+                            <p class="product__price">16 500 грн.  </p>
+                        </article>
+                      </div>
+                      <div class="swiper-slide">
+                        <article class="product">
+                            <img 
+                                src="./images/season/JORD AR5905.png" 
+                                alt="JORD AR5905"
+                                class="product__photo"
+                            >
+                            <h3 class="product__title">JORD AR5905</h3>
+                            <p class="product__price">65 000 грн.  </p>
+                        </article>
+                      </div>
+                      
+                    </div>
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+                  
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                  
+                    <!-- If we need scrollbar -->
+                    <div class="swiper-scrollbar"></div>
+                </div>
+
+
             </div>
             <div class="catalog">
                 <h2 class="catalog__title">Нова колекція</h2>
                 <div class="title__underline">  </div>
                 <button class="catalog__btn">Каталог</button>
             </div>
+
         </section>
 
         <section class="collections-old">
-            <img class="old-img" src="./images/season/old.png" alt="">
+            <img class="old-img" src="" alt="">
             <div class="catalog_old">
                 <h2 class="old__title">колекція 2018</h2>
                 <div class="title__underline">  </div>
@@ -303,5 +359,9 @@
             <div><a class="agreement__link" href="#">Угода користувача</a></div>
         </div>
     </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="./script.js"></script>
 </body>
 </html>
