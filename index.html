@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="./styles/style.css">
 
 </head>
-<body>
+<body id="home">
     <header class="header">
         <div class="header__top">
             <div class="header__contacts">
@@ -36,18 +36,62 @@
                 <img
                 class="" src="./images/icon/ic_sharp-log-in.png" alt="">
                 <button type="button">Вхід / Реєстрація</button>
+                
             </div>
+            
         </div>
         <div class="header__bottom">
             <div class="header__logo">
                 <img src="./images/PORTEN.png" alt="Logo PORTEN">
+                
             </div>
+            <a href="#menu" class="burger"><i class="fa-solid fa-bars" style="color: #ffffff;"></i></a>
             <div class="header__manage">
                 <button class="manade__btn">Сподобалось</button>
                 <button class="manade__btn">Особистий кабінет</button>
                 <button class="manade__btn">Налаштування</button>
                 <img class="basket" src="./images/icon/bx_bx-cart.png" alt="basket">
                 <img class="search" src="./images/icon/gridicons_search.png" alt="search">
+            </div>
+        </div>
+
+
+        <div class="menu" id="menu">
+            <div class="menu__top">
+                <img src="./images/PORTEN.png" alt="PORTEN">
+                <a href="#home" class="burger">
+                    <i class="fa-solid fa-bars" style="color: #ffffff;"></i>
+                </a>  
+            </div>
+            <div class="menu__content">
+                <div class="header__menu">
+                    <div class="header__contacts">
+                        <img class="contacts__phone"
+                            src="./images/icon/eva_phone-outline.png" 
+                            alt="icon phone">
+                        <p class="contacts__content">
+                            <a href="tel: +88121234567">+8 (812) 123-45-67</a>
+                            <span class="vertical-line"> | </span>
+                            Працюємо 7 днів на тиждень
+                            <span class="vertical-line"> | </span>
+                            9:00 — 18:00
+                        </p>
+                    </div>
+                    <div class="header__auth">
+                        <img
+                        class="" src="./images/icon/ic_sharp-log-in.png" alt="">
+                        <button type="button">Вхід / Реєстрація</button>
+                        
+                    </div>
+                
+                </div>
+                <div class="menu__manage">
+                    <button class="manade__btn">Сподобалось</button>
+                    <button class="manade__btn">Особистий кабінет</button>
+                    <button class="manade__btn">Налаштування</button>
+                    <img class="basket" src="./images/icon/bx_bx-cart.png" alt="basket">
+                    <img class="search" src="./images/icon/gridicons_search.png" alt="search">
+                </div>
             </div>
         </div>
     </header>
@@ -100,53 +144,48 @@
                     </article>
                 </div>
 
-                <div class="swiper">
-                    <!-- Additional required wrapper -->
-                    <div class="swiper-wrapper">
-                      <!-- Slides -->
-                      <div class="swiper-slide">
-                        <article class="product">
-                            <img 
-                                src="./images/season/Louis XVI ATHOS.png" 
-                                alt="Louis XVI ATHOS"
-                                class="product__photo"
-                            >
-                            <h3 class="product__title">Louis XVI ATHOS</h3>
-                            <p class="product__price">13 600 грн.  </p>
-                        </article>
-                      </div>
-                      <div class="swiper-slide">
-                        <article class="product">
-                            <img 
-                                src="./images/season/Carl von Zeyten.png" 
-                                alt="Carl von Zeyten"
-                                class="product__photo"
-                            >
-                            <h3 class="product__title">Carl von Zeyten</h3>
-                            <p class="product__price">16 500 грн.  </p>
-                        </article>
-                      </div>
-                      <div class="swiper-slide">
-                        <article class="product">
-                            <img 
-                                src="./images/season/JORD AR5905.png" 
-                                alt="JORD AR5905"
-                                class="product__photo"
-                            >
-                            <h3 class="product__title">JORD AR5905</h3>
-                            <p class="product__price">65 000 грн.  </p>
-                        </article>
-                      </div>
+                <div class="swiper swiper-bcg">
+
+                    <div class="swiper-wrapper" >
+
+                        <div class="swiper-slide">
+                            <article class="product__swiper">
+                                <img 
+                                    src="./images/season/Louis XVI ATHOS.png" 
+                                    alt="Louis XVI ATHOS"
+                                    class="product__photo"
+                                >
+                                <h3 class="product__title">Louis XVI ATHOS</h3>
+                                <p class="product__price">13 600 грн.  </p>
+                            </article>
+                        </div>
+                        <div class="swiper-slide">
+                            <article class="product__swiper">
+                                <img 
+                                    src="./images/season/Carl von Zeyten.png" 
+                                    alt="Carl von Zeyten"
+                                    class="product__photo"
+                                >
+                                <h3 class="product__title">Carl von Zeyten</h3>
+                                <p class="product__price">16 500 грн.  </p>
+                            </article>
+                        </div>
+                        <div class="swiper-slide">
+                            <article class="product__swiper">
+                                <img 
+                                    src="./images/season/JORD AR5905.png" 
+                                    alt="JORD AR5905"
+                                    class="product__photo"
+                                >
+                                <h3 class="product__title">JORD AR5905</h3>
+                                <p class="product__price">65 000 грн.  </p>
+                            </article>
+                        </div>
                       
                     </div>
-                    <!-- If we need pagination -->
+
                     <div class="swiper-pagination"></div>
-                  
-                    <!-- If we need navigation buttons -->
-                    <div class="swiper-button-prev"></div>
-                    <div class="swiper-button-next"></div>
-                  
-                    <!-- If we need scrollbar -->
+
                     <div class="swiper-scrollbar"></div>
                 </div>
 
@@ -173,6 +212,7 @@
         <section class="novelty">
             <h2 class="novelty__title">Нові надходження</h2>
             <div class="title__underline">  </div>
+
             <div class="novelty__products">
 
                 <article class="product">
@@ -254,6 +294,104 @@
                     <button class="catalog__btn all__btn">ПОКАЗАТИ ВСІ</button>
                 </article>
                 
+            </div>
+            <div class="swiper">
+
+                <div class="swiper-wrapper">
+                     <div class="swiper-slide">
+                        <article class="product">
+                            <img 
+                                src="./images/novelty/Carl von Zeyten.png" 
+                                alt="Carl von Zeyten"
+                                class="product__photo"
+                            >
+                            <h3 class="product__title">Carl von Zeyten</h3>
+                            <p class="product__price">16 500 грн.  </p>
+                        </article>
+                    </div>
+                     <div class="swiper-slide">
+                        <article class="product">
+                            <img 
+                                src="./images/novelty/JORD AR5905.png" 
+                                alt="JORD AR5905"
+                                class="product__photo"
+                            >
+                            <h3 class="product__title">JORD AR5905</h3>
+                            <p class="product__price">65 000 грн.  </p>
+                        </article>
+                    </div>
+                     <div class="swiper-slide">
+                        <article class="product">
+                            <img 
+                                src="./images/novelty/Emporio Armani Sportivo.png" 
+                                alt="Emporio Armani Sportivo"
+                                class="product__photo"
+                            >
+                            <h3 class="product__title">Emporio Armani Sportivo</h3>
+                            <p class="product__price">165 000 грн.  </p>
+                        </article>
+                    </div>
+                     <div class="swiper-slide">
+                        <article class="product">
+                            <img 
+                                src="./images/novelty/Rolex Oyster Perpetual.png" 
+                                alt="Rolex Oyster Perpetual"
+                                class="product__photo"
+                            >
+                            <h3 class="product__title">Rolex Oyster Perpetual</h3>
+                            <p class="product__price">280 000 грн.  </p>
+                        </article>
+                    </div>
+                     <div class="swiper-slide">
+                        <article class="product">
+                            <img 
+                                src="./images/novelty/Louis XVI ATHOS.png" 
+                                alt="Louis XVI ATHOS"
+                                class="product__photo"
+                            >
+                            <h3 class="product__title">Louis XVI ATHOS</h3>
+                            <p class="product__price">65 000 грн.  </p>
+                        </article>
+                    </div>
+                     <div class="swiper-slide">
+                        <article class="product">
+                            <img 
+                                src="./images/novelty/U-Boat Italo Fontana.png" 
+                                alt="U-Boat Italo Fontana"
+                                class="product__photo"
+                            >
+                            <h3 class="product__title">U-Boat Italo Fontana</h3>
+                            <p class="product__price">18 700 грн.  </p>
+                        </article>
+                    </div>
+                     <div class="swiper-slide">
+                        <article class="product ">
+                            <img 
+                                src="./images/novelty/Gucci Men's G.png" 
+                                alt="Gucci Men's G"
+                                class="product__photo trim"
+                            >
+                            <h3 class="product__title">Gucci Men's G</h3>
+                            <p class="product__price">38 500 грн.  </p>
+                        </article>
+                    </div>
+                     <div class="swiper-slide">
+                        <article class="product catalog_all">
+                            <img 
+                                src="./images/novelty/JORD AR5905.png" 
+                                alt="JORD AR5905"
+                                class="product__photo photo__all"
+                            >
+                            <button class="catalog__btn all__btn">ПОКАЗАТИ ВСІ</button>
+                        </article>
+                    </div>
+                                    
+                  
+                </div>
+
+                <div class="swiper-pagination"></div>
+
+                <div class="swiper-scrollbar"></div>
             </div>
         </section>
 
@@ -354,13 +492,56 @@
                 </div>
             </div>
         </section>
+
+        <div class="swiper footer__bcg">
+
+            <div class="swiper-wrapper" >
+
+                <div class="swiper-slide">
+                    <div class="company">
+                        <h3 class="footer__title">про компанію</h3>
+                        <p class="footer__text">Компанія PORTEN – лідер на українському ринку годинників. На цей час ми об'єднуємо більше сорока магазинів у різних куточках України та інтернет-магазин, який став першим в нашому сегменті ринку. Торгова мережа PORTEN – офіційний дистриб'ютор більше 50 найвідоміших годинникових марок, починаючи від японської CASIO, закінчуючи швейцарськими LONGINES, ZENITH, TAG HEUER. Однак компанія не обмежується лише годинниками – в інтернет-магазині та бутіках мережі ви знайдете прекрасні ювелірні вироби від таких іменитих брендів, як SWAROVSKI и CHRISTINA.</p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="categories">
+                        <h3 class="footer__title">Категорії</h3>
+                        <div class="categories__buttons">
+                            <button class="categories__button">годинники</button>
+                            <button class="categories__button">запонки</button>
+                            <button class="categories__button">ремені</button>
+                            <button class="categories__button">ювелірні вироби</button>
+                            <button class="categories__button">на замовлення</button>
+                            <button class="categories__button">браслети</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="mailing">
+                        <h3 class="footer__title">розсилка</h3>
+                        <p class="footer__text">Компанія пропонує тільки оригінальну продукцію від найвідоміших світових брендів за найкращою ціною. Ми дбаємо про комфорт наших покупців і постійно розширюємо можливості сервісного обслуговування.</p>
+                        <form action="">
+                            <input type="text" placeholder="Ваша пошта">
+                            <button class="form__btn" type="submit">ПІДПИСАТИСЯ</button>
+                        </form>
+                    </div>
+                </div>
+              
+            </div>
+
+            <div class="swiper-pagination"></div>
+
+            <div class="swiper-scrollbar"></div>
+        </div>
+
+
         <div class="agreement">
             <p class="agreement__text">© 2022 PORTEN, Інтернет-магазин годинників</p>
             <div><a class="agreement__link" href="#">Угода користувача</a></div>
         </div>
     </footer>
 
-
+    <script src="https://kit.fontawesome.com/8e259b2438.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     <script src="./script.js"></script>
 </body>
