@@ -272,7 +272,7 @@ margin: 0 14px;
     display: flex;
 }
 
-.old-img{
+.old__img{
     width: 48%;
     /* height: auto; */
     background-image: url("../images/season/old.png");
@@ -893,7 +893,7 @@ input::placeholder {
         display: block;
     }
     
-    .old-img{
+    .old__img{
         display: none;
     }
     
